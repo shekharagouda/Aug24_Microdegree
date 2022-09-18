@@ -1,2 +1,26 @@
  To chech the branch
 -git branch
+
+to create and checkout to newbranch
+- git checkout -b "new_test"
+
+to switch to other branches
+- git checkout "branchname"
+
+To push  it to the respective branch 
+- git push --set-upstream origin "branch_name"
+
+to delete a branch 
+- git branch -d "branch_name"
+
+
+______________________________________________________________
+
+To Install git on linux machine
+https://git-scm.com/download/linux
+
+to accss to root 
+- sudo su 
+
+To install git on linux (Amazon)
+- yum install git 
